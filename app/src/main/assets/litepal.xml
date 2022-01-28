@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+<!--    <dbname value="User"></dbname>-->
+
+<!--    <version value="1"></version>-->
+<!--    <list>-->
+<!--        <mapping class="com.example.logintest.UserData"></mapping>-->
+<!--    </list>-->
+    <dbname value="Comment"></dbname>
+
+    <version value="16"></version>
+    <list>
+        <mapping class="com.example.readers.comment.lunyu.LunyuData"></mapping>
+        <mapping class="com.example.readers.comment.szj.SzjData"></mapping>
+        <mapping class="com.example.readers.comment.ddj.DdjData"></mapping>
+        <mapping class="com.example.readers.comment.szbf.SzbfData"></mapping>
+        <mapping class="com.example.readers.comment.es.Es2Data"></mapping>
+        <mapping class="com.example.readers.gl.gl_Data"></mapping>
+        <mapping class="com.example.readers.login.UserData"></mapping>
+        <mapping class="com.example.readers.taolun.tlt.taol.TaolunData"></mapping>
+        <mapping class="com.example.readers.taolun.tlt.haoshu.HaoshuData"></mapping>
+        <mapping class="com.example.readers.taolun.tlt.gd.GdData"></mapping>
+        <mapping class="com.example.readers.taolun.tlt.xd.XdData"></mapping>
+
+
+    </list>
+
+</litepal>
+

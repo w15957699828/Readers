@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/rohe2"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/button_bookshelf"
+        android:layout_width="167dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="25dp"
+        android:text="书架"
+        app:layout_constraintBottom_toTopOf="@+id/button_communicate"
+        app:layout_constraintEnd_toStartOf="@+id/button_comment"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_comment"
+        android:layout_width="167dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="25dp"
+        android:text="书籍评论"
+        app:layout_constraintBottom_toTopOf="@+id/button_market"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_bookshelf" />
+
+    <Button
+        android:id="@+id/button_communicate"
+        android:layout_width="167dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="230dp"
+        android:text="读书交流"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_market"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_market"
+        android:layout_width="167dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="230dp"
+        android:text="二手书市场"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_communicate" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="254dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="76dp"
+        android:text="欢迎来到Readers"
+        android:textColor="@color/purple_700"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

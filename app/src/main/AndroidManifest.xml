@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.readers">
+
+    <application
+        android:name="org.litepal.LitePalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/tubiao"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Readers">
+        <activity android:name=".gl.gl_tl.gl_dushutaolun"></activity>
+
+        <activity android:name=".taolun.tlt.xd.xd" />
+        <activity android:name=".taolun.tlt.gd.gd" />
+        <activity android:name=".taolun.tlt.haoshu.haoshu" />
+        <activity android:name=".taolun.tlt.tlt_1" />
+        <activity android:name=".taolun.tlt.taol.Taolun_MainActivity" />
+        <activity android:name=".gl.gl_comment" />
+        <activity android:name=".gl.MainActivity3" />
+        <activity android:name=".gl.guanliyuan" />
+        <activity android:name=".gl.gl_ct_lunyu" />
+        <activity android:name=".gl.gl_ct_szj" />
+        <activity android:name=".gl.gl_ct_ddj" />
+        <activity android:name=".gl.gl_ct_szbf" />
+        <activity android:name=".gl.gl_ershou" />
+        <activity android:name=".gl.gl_tl.gl_hs" />
+        <activity android:name=".gl.gl_tl.gl_zy" />
+        <activity android:name=".gl.gl_tl.gl_gd" />
+        <activity android:name=".gl.gl_tl.gl_xd" />
+        <activity android:name=".comment.es.es2" />
+        <activity android:name=".DatabaseCreate" />
+        <activity android:name=".comment.szbf.comment_szbf" />
+        <activity android:name=".comment.ddj.comment_ddj" />
+        <activity android:name=".comment.szj.comment_szj" />
+        <activity android:name=".comment.lunyu.comment_lunyu" />
+        <activity android:name=".comment.comment_1" />
+        <activity
+            android:name="com.bifan.txtreaderlib.ui.HwTxtPlayActivity"
+            android:theme="@style/HwTxtFullScreen"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".bookshelf.bookshelf_1" />
+        <activity android:name=".login.start" />
+        <activity android:name=".login.registered" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".gl.registered_gl" />
+
+    </application>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>

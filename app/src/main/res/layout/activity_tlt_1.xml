@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".taolun.tlt.tlt_1"
+    android:background="@mipmap/rohe3"
+    >
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="231dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="90dp"
+        android:text="现代文学爱好者"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="231dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="90dp"
+        android:text="古典文学爱好者"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="261dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="75dp"
+        android:gravity="center"
+        android:text="读书讨论区"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="231dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="90dp"
+        android:text="好书推荐"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="231dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="90dp"
+        android:text="自由交流"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
